@@ -1,0 +1,5 @@
+company,game_state,information_asymmetry,recommended_strategy,rationale
+HDFC Bank,wait_and_watch,low,hold_and_monitor,Stable sentiment and low asymmetry. No dominant catalyst; observation is optimal.
+Infosys,range_bound,medium,tactical_hold,Mixed or low-conviction signals indicate sideways movement. Best response is patience and optionality.
+Reliance,wait_and_watch,low,hold_and_monitor,Stable sentiment and low asymmetry. No dominant catalyst; observation is optimal.
+Tata Steel,defensive_risk,high,avoid_or_hedge,Negative sentiment with high information asymmetry. Downside risk dominates without clear signals.

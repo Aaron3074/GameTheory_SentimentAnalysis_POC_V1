@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Theory Sentiment Dashboard</title>
+    <meta charset="UTF-8">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .legend {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .legend span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Game Theory + Sentiment Decision Dashboard</h1>
+
+<p style="text-align:center; color:#555;">
+This dashboard summarizes company-level strategic posture derived from financial news sentiment using game-theoretic reasoning.
+</p>
+
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Game State</th>
+        <th>Information Asymmetry</th>
+        <th>Recommended Strategy</th>
+        <th>Rationale</th>
+    </tr>
+    
+    <tr>
+        <td>HDFC Bank</td>
+        <td>Wait And Watch</td>
+        <td style="color:#2ecc71; font-weight:bold;">
+            Low
+        </td>
+        <td><b>Hold And Monitor</b></td>
+        <td style="max-width:400px;">Stable sentiment and low asymmetry. No dominant catalyst; observation is optimal.</td>
+    </tr>
+    
+    <tr>
+        <td>Infosys</td>
+        <td>Range Bound</td>
+        <td style="color:#f39c12; font-weight:bold;">
+            Medium
+        </td>
+        <td><b>Tactical Hold</b></td>
+        <td style="max-width:400px;">Mixed or low-conviction signals indicate sideways movement. Best response is patience and optionality.</td>
+    </tr>
+    
+    <tr>
+        <td>Reliance</td>
+        <td>Wait And Watch</td>
+        <td style="color:#2ecc71; font-weight:bold;">
+            Low
+        </td>
+        <td><b>Hold And Monitor</b></td>
+        <td style="max-width:400px;">Stable sentiment and low asymmetry. No dominant catalyst; observation is optimal.</td>
+    </tr>
+    
+    <tr>
+        <td>Tata Steel</td>
+        <td>Defensive Risk</td>
+        <td style="color:#e74c3c; font-weight:bold;">
+            High
+        </td>
+        <td><b>Avoid Or Hedge</b></td>
+        <td style="max-width:400px;">Negative sentiment with high information asymmetry. Downside risk dominates without clear signals.</td>
+    </tr>
+    
+</table>
+
+<div class="legend">
+    <h3>Information Asymmetry Guide</h3>
+    <p><span style="color:#2ecc71;">Low</span> — Stable narrative, high confidence</p>
+    <p><span style="color:#f39c12;">Medium</span> — Mixed signals, partial clarity</p>
+    <p><span style="color:#e74c3c;">High</span> — Uncertain or negative information environment</p>
+</div>
+
+</body>
+</html>

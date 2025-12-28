@@ -1,0 +1,5 @@
+company,sentiment_state,game_state,information_asymmetry
+HDFC Bank,neutral_stable,wait_and_watch,low
+Infosys,neutral_stable,range_bound,medium
+Reliance,neutral_stable,wait_and_watch,low
+Tata Steel,negative_bias,defensive_risk,high

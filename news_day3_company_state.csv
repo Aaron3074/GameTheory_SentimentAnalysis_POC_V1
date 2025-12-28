@@ -1,0 +1,5 @@
+company,total_articles,positive_pct,negative_pct,neutral_pct,avg_sentiment_score,sentiment_state
+HDFC Bank,31,0.097,0.032,0.871,0.845,neutral_stable
+Infosys,29,0.034,0.069,0.897,0.839,neutral_stable
+Reliance,33,0.121,0.121,0.758,0.814,neutral_stable
+Tata Steel,10,0.0,0.3,0.7,0.805,negative_bias
